@@ -13,6 +13,7 @@
     "dependencies": {
         "axios": "^0.24.0",
         "ccxt": "^1.59.70",
+        "copy-webpack-plugin": "^10.2.4",
         "express": "^4.17.3",
         "firebase-admin": "^10.0.0",
         "https": "^1.0.0",
