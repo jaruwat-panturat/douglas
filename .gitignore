@@ -1,2 +1,5 @@
 node_modules/*
 assets/credentials.json
+assets/bot-trade-b3e8d-firebase-adminsdk-9uo54-28bf08351d.json
+dist
+*.js
