@@ -1,0 +1,21 @@
+{
+    "name": "bot_trade",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.24.0",
+        "ccxt": "^1.59.70",
+        "express": "^4.17.3",
+        "firebase-admin": "^10.0.0",
+        "https": "^1.0.0",
+        "node-cron": "^3.0.0",
+        "pandas": "^0.0.3",
+        "trading-indicator": "^1.0.4-beta"
+    }
+}
