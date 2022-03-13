@@ -14,18 +14,18 @@ module.exports = {
         filename: 'index.js'
     },
     resolve: {
-        extensions: ['.ts', '.js'],
+        extensions: ['.ts', '.js']
     },
     module: {
         rules: [
             {
                 test: /\.ts$/,
                 use: [
-                    'ts-loader',
+                    'ts-loader'
                 ]
             }
         ]
     },
-    externals: [ nodeExternals() ],
+    externals: [nodeExternals()],
     watch: NODE_ENV === 'development'
-}
+};
