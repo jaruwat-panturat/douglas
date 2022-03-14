@@ -12,13 +12,12 @@ export class LineService {
     const params = new URLSearchParams();
     params.append('message', msg);
 
-    axios.post(this.lineUrl, params,
-        {
-          headers: this.lineHeader,
-        }).then(function(response) {
-      console.log(response);
+    axios.post(this.lineUrl, params,{
+      headers: this.lineHeader,
+    }).then(function(response) {
+      // console.log(response);
     }).catch(function(error) {
-      console.log(error);
+      // console.log(error);
     }).then(function() {
     });
   }
