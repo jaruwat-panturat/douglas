@@ -4,7 +4,7 @@ pipeline {
     stage('Buzz Build') {
       steps {
         echo 'Buzz Buzz'
-        sh 'hello_world.sh'
+        sh './hello_world.sh'
       }
     }
 
