@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('test new branch') {
+      steps {
+        echo 'test new branch'
+      }
+    }
+
   }
 }
