@@ -4,7 +4,7 @@ pipeline {
     stage('Buzz Build') {
       steps {
         echo 'Buzz Buzz'
-        sh './jenkins/build.sh'
+        sh 'ls -l'
       }
     }
 
