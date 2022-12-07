@@ -4,7 +4,8 @@ pipeline {
     stage('Buzz Build') {
       steps {
         echo 'Buzz Buzz'
-        sh './hello_world.sh'
+        sh 'echo "hello world"'
+        archiveArtifacts(artifacts: 'target/*.jar', fingerprint: true)
       }
     }
 
